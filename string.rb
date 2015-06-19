@@ -131,17 +131,16 @@ q.map{|p| puts p}
 q.collect{|p| puts p}
 puts "q with collect!"
 q.collect!{|p| puts p+'@'}
-puts q.nitems
 q.map{|p| puts p}
 
 #files and directories
-puts Dir.pwd
-puts Dir.chdir('/home/geena')
-puts Dir.entries('/home/sysnet').join(",")
-a=[[1, "one"], [2,"two"]]
-puts a.rassoc("one")
-a=[1,2,3,4,56,7,7,]
-puts a.values_at(1)
+#puts Dir.pwd
+#puts Dir.chdir('/home/geena')
+#puts Dir.entries('/home/sysnet').join(",")
+#a=[[1, "one"], [2,"two"]]
+# puts a.rassoc("one")
+# a=[1,2,3,4,56,7,7,]
+# puts a.values_at(1)
 
 s="1,2,3,this, is stes"
 puts "split", s.split(/,*/,4)

@@ -1,3 +1,4 @@
+#count stars in the sky. Just fun!!
 puts "u want to count the stars in the sky,then press y"
 button =gets.chomp
 if button == 'y'
